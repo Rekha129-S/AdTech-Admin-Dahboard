@@ -1,7 +1,725 @@
 {
-  "meta": {
-    "secret": "48c76defe0fb2c7be92e9350cfe5c02feb7a914130aebccc41526a9f11474090"
-  },
+  "users": [
+    {
+      "id": 1,
+      "pw": "9813e403cb789ff13bd67317c692c60e:0c6acbcf45e30ae716be146baec53c1d6a68c35bb67109269cb605f2789c3f03",
+      "name": "Rekha Patil",
+      "role": "Super Admin",
+      "email": "admin@adtech.in",
+      "status": "Active",
+      "created": "2026-09-25T08:53:57.017Z"
+    },
+    {
+      "id": 2,
+      "pw": "58f67eabe406935d77166867e94de454:535870a561679dda8d4d2563817ec58aff19419ff878d8be0ffe6a31c3fe401f",
+      "name": "Amit Sharma",
+      "role": "Admin",
+      "email": "amit@adtech.in",
+      "status": "Active",
+      "created": "2026-09-27T08:53:57.017Z"
+    },
+    {
+      "id": 3,
+      "pw": "e5869e5889419890666326a3193151e6:3b861d3ffe5e3ae8e9d4c954d28100404aab6e65a5d474be39633bdbc1a00280",
+      "name": "Priya Singh",
+      "role": "Manager",
+      "email": "priya@adtech.in",
+      "status": "Active",
+      "created": "2026-09-29T08:53:57.017Z"
+    },
+    {
+      "id": 4,
+      "pw": "3e62daa675d66fc9e34e7a057e624020:e800309f1ce7adc70ffc7275418b1bc31b7b01fa85f1fde3bb6343f26a6e7995",
+      "name": "Rahul Kumar",
+      "role": "Viewer",
+      "email": "rahul@adtech.in",
+      "status": "Inactive",
+      "created": "2026-10-01T08:53:57.017Z"
+    },
+    {
+      "id": 5,
+      "pw": "56042de34549202702c69c5d527fa7e9:7f290ae1af0eddcdcebb0e0d65cf875e9c525f5a64b435f704bc301587c49fd4",
+      "name": "Sneha Iyer",
+      "role": "Support",
+      "email": "sneha@adtech.in",
+      "status": "Active",
+      "created": "2026-10-03T08:53:57.017Z"
+    }
+  ],
+  "advertisers": [
+    {
+      "id": 6,
+      "pw": "e4a222d9fcb6d2d6820342091aa4ba75:2bd2798ba0532a328680b7270df720377477ff8eafc16f922d58c8974de54a0f",
+      "name": "SR Enterprices",
+      "email": "sr2413@gmail.com",
+      "status": "Pending",
+      "created": "2026-11-04T08:58:55.084Z"
+    },
+    {
+      "id": 1,
+      "pw": "f7c8718257c822fe1f46c872d94efdc9:d9801a7ff52872a98f197ff88dacca0cea76a40bf50b46e62b2e4977565169b6",
+      "name": "ABC Enterprises",
+      "email": "ads@abc.com",
+      "status": "Approved",
+      "created": "2026-09-25T08:53:57.017Z",
+      "lastLogin": "2026-11-04T03:53:57.017Z",
+      "loginCount": 2
+    },
+    {
+      "id": 2,
+      "pw": "e35e680a5602c5dd50d8f00f06f9348e:510520596d499d4b7c52ee150caeca4ee9634575f0b60515d0f854f7393bde9d",
+      "name": "TechGlobal Ltd",
+      "email": "ads@techglobal.com",
+      "status": "Approved",
+      "created": "2026-09-27T08:53:57.017Z",
+      "lastLogin": "2026-11-03T07:53:57.017Z",
+      "loginCount": 1
+    },
+    {
+      "id": 3,
+      "pw": "9639ee0f4264159b5252551bf6f7627e:a4f79bc7b04e88ac72709a334a47cfd31c1f37e1a4c162aa3580440aa996a17e",
+      "name": "Dream Ads Co.",
+      "email": "ads@dreamads.com",
+      "status": "Pending",
+      "created": "2026-09-29T08:53:57.017Z",
+      "lastLogin": null,
+      "loginCount": 0
+    },
+    {
+      "id": 4,
+      "pw": "a77c3c412311423bb696b95574e73e12:edbbd199087d7e61a28cd0daa4a12a263fe8530d5d8f3729c0ab7b00a20e3f2d",
+      "name": "Future Brands",
+      "email": "hello@futurebrands.com",
+      "status": "Approved",
+      "created": "2026-10-01T08:53:57.017Z",
+      "lastLogin": "2026-11-01T07:33:57.017Z",
+      "loginCount": 1
+    },
+    {
+      "id": 5,
+      "pw": "283f4c095a449b2a5a3db511f4b445e5:a8e2ba1112ee4c0f88120e0715d0412e7baf9647e9127cc747eb96245d389ea7",
+      "name": "Mega Media",
+      "email": "ads@megamedia.com",
+      "status": "Approved",
+      "created": "2026-10-03T08:53:57.017Z",
+      "lastLogin": "2026-10-31T04:53:57.017Z",
+      "loginCount": 1
+    }
+  ],
+  "partners": [
+    {
+      "id": 1,
+      "name": "Ramesh Kumar",
+      "phone": "9876543210",
+      "status": "Active",
+      "created": "2026-09-25T08:53:57.017Z",
+      "vehicle": "KA-01-AA-1001"
+    },
+    {
+      "id": 2,
+      "name": "Suresh Patel",
+      "phone": "9123456789",
+      "status": "Active",
+      "created": "2026-09-27T08:53:57.017Z",
+      "vehicle": "KA-01-BB-2002"
+    },
+    {
+      "id": 3,
+      "name": "Mahesh Rao",
+      "phone": "9988776655",
+      "status": "Pending",
+      "created": "2026-09-29T08:53:57.017Z",
+      "vehicle": "KA-01-CC-3003"
+    },
+    {
+      "id": 4,
+      "name": "Lakshmi Devi",
+      "phone": "9765432109",
+      "status": "Active",
+      "created": "2026-10-01T08:53:57.017Z",
+      "vehicle": "KA-01-DD-4004"
+    },
+    {
+      "id": 5,
+      "name": "Rajesh Gowda",
+      "phone": "8899887654",
+      "status": "Active",
+      "created": "2026-10-03T08:53:57.017Z",
+      "vehicle": "KA-01-EE-5005"
+    },
+    {
+      "id": 6,
+      "name": "Anil Shetty",
+      "phone": "9845012345",
+      "status": "Active",
+      "created": "2026-10-05T08:53:57.017Z",
+      "vehicle": "KA-01-FF-6006"
+    },
+    {
+      "id": 7,
+      "name": "Divya Nair",
+      "phone": "9901234567",
+      "status": "Active",
+      "created": "2026-10-07T08:53:57.017Z",
+      "vehicle": "KA-01-GG-7007"
+    },
+    {
+      "id": 8,
+      "name": "Kiran Reddy",
+      "phone": "9886543210",
+      "status": "Active",
+      "created": "2026-10-09T08:53:57.017Z",
+      "vehicle": "KA-01-HH-8008"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": 1,
+      "no": "KA-01-AA-1001",
+      "area": "Bommanahalli",
+      "owner": "Ramesh Kumar",
+      "status": "Active",
+      "created": "2026-09-25T08:53:57.017Z"
+    },
+    {
+      "id": 2,
+      "no": "KA-01-BB-2002",
+      "area": "Silk Board",
+      "owner": "Suresh Patel",
+      "status": "Active",
+      "created": "2026-09-27T08:53:57.017Z"
+    },
+    {
+      "id": 3,
+      "no": "KA-01-CC-3003",
+      "area": "Koramangala",
+      "owner": "Mahesh Rao",
+      "status": "Inactive",
+      "created": "2026-09-29T08:53:57.017Z"
+    },
+    {
+      "id": 4,
+      "no": "KA-01-DD-4004",
+      "area": "HSR Layout",
+      "owner": "Lakshmi Devi",
+      "status": "Active",
+      "created": "2026-10-01T08:53:57.017Z"
+    },
+    {
+      "id": 5,
+      "no": "KA-01-EE-5005",
+      "area": "Indiranagar",
+      "owner": "Rajesh Gowda",
+      "status": "Active",
+      "created": "2026-10-03T08:53:57.017Z"
+    },
+    {
+      "id": 6,
+      "no": "KA-01-FF-6006",
+      "area": "Whitefield",
+      "owner": "Anil Shetty",
+      "status": "Active",
+      "created": "2026-10-05T08:53:57.017Z"
+    },
+    {
+      "id": 7,
+      "no": "KA-01-GG-7007",
+      "area": "Jayanagar",
+      "owner": "Divya Nair",
+      "status": "Active",
+      "created": "2026-10-07T08:53:57.017Z"
+    },
+    {
+      "id": 8,
+      "no": "KA-01-HH-8008",
+      "area": "Electronic City",
+      "owner": "Kiran Reddy",
+      "status": "Active",
+      "created": "2026-10-09T08:53:57.017Z"
+    }
+  ],
+  "devices": [
+    {
+      "id": 1,
+      "dev": "DEV-001",
+      "lat": 12.906993697858002,
+      "lng": 77.62336481606962,
+      "speed": 14,
+      "status": "Online",
+      "created": "2026-09-25T08:53:57.017Z",
+      "vehicle": "KA-01-AA-1001",
+      "lastSeenAt": "2026-11-10T12:49:00.483Z"
+    },
+    {
+      "id": 2,
+      "dev": "DEV-002",
+      "lat": 12.919043193282736,
+      "lng": 77.62391709674232,
+      "speed": 10,
+      "status": "Online",
+      "created": "2026-09-27T08:53:57.017Z",
+      "vehicle": "KA-01-BB-2002",
+      "lastSeenAt": "2026-11-10T12:49:00.483Z"
+    },
+    {
+      "id": 3,
+      "dev": "DEV-003",
+      "lat": 12.938225506655423,
+      "lng": 77.62690305980257,
+      "speed": 0,
+      "status": "Offline",
+      "created": "2026-09-29T08:53:57.017Z",
+      "vehicle": "KA-01-CC-3003",
+      "lastSeenAt": "2026-11-04T07:53:57.017Z"
+    },
+    {
+      "id": 4,
+      "dev": "DEV-004",
+      "lat": 12.91304614783173,
+      "lng": 77.6381273695704,
+      "speed": 34,
+      "status": "Online",
+      "created": "2026-10-01T08:53:57.017Z",
+      "vehicle": "KA-01-DD-4004",
+      "lastSeenAt": "2026-11-10T12:49:00.483Z"
+    },
+    {
+      "id": 5,
+      "dev": "DEV-005",
+      "lat": 12.977069674869483,
+      "lng": 77.6448321381954,
+      "speed": 0,
+      "status": "Maintenance",
+      "created": "2026-10-03T08:53:57.017Z",
+      "vehicle": "KA-01-EE-5005",
+      "lastSeenAt": "2026-11-04T08:43:57.017Z"
+    },
+    {
+      "id": 6,
+      "dev": "DEV-006",
+      "lat": 12.969868391112902,
+      "lng": 77.751158223261,
+      "speed": 31,
+      "status": "Online",
+      "created": "2026-10-05T08:53:57.017Z",
+      "vehicle": "KA-01-FF-6006",
+      "lastSeenAt": "2026-11-10T12:49:00.483Z"
+    },
+    {
+      "id": 7,
+      "dev": "DEV-007",
+      "lat": 12.927743883982004,
+      "lng": 77.58306306537308,
+      "speed": 25,
+      "status": "Online",
+      "created": "2026-10-07T08:53:57.017Z",
+      "vehicle": "KA-01-GG-7007",
+      "lastSeenAt": "2026-11-10T12:49:00.483Z"
+    },
+    {
+      "id": 8,
+      "dev": "DEV-008",
+      "lat": 12.844728629432417,
+      "lng": 77.66288060483181,
+      "speed": 29,
+      "status": "Online",
+      "created": "2026-10-09T08:53:57.017Z",
+      "vehicle": "KA-01-HH-8008",
+      "lastSeenAt": "2026-11-10T12:49:00.483Z"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": 7,
+      "adv": "SR Enterprices",
+      "end": "2026-11-06",
+      "name": "Diwali Launch",
+      "start": "2026-11-05",
+      "status": "Pending",
+      "created": "2026-11-04T09:01:32.691Z"
+    },
+    {
+      "id": 1,
+      "adv": "ABC Enterprises",
+      "end": "2026-11-30",
+      "name": "Festive Offers 2026",
+      "start": "2026-11-01",
+      "status": "Approved",
+      "created": "2026-09-25T08:53:57.017Z"
+    },
+    {
+      "id": 2,
+      "adv": "TechGlobal Ltd",
+      "end": "2026-11-20",
+      "name": "Tech Sale",
+      "start": "2026-11-05",
+      "status": "Approved",
+      "created": "2026-09-27T08:53:57.017Z"
+    },
+    {
+      "id": 3,
+      "adv": "Dream Ads Co.",
+      "end": "2026-11-25",
+      "name": "Dream Big Campaign",
+      "start": "2026-11-10",
+      "status": "Approved",
+      "created": "2026-09-29T08:53:57.017Z"
+    },
+    {
+      "id": 4,
+      "adv": "Future Brands",
+      "end": "2026-12-15",
+      "name": "Winter Bonanza",
+      "start": "2026-11-15",
+      "status": "Rejected",
+      "created": "2026-10-01T08:53:57.017Z"
+    },
+    {
+      "id": 5,
+      "adv": "Mega Media",
+      "end": "2026-12-05",
+      "name": "Mega Sale",
+      "start": "2026-11-20",
+      "status": "Approved",
+      "created": "2026-10-03T08:53:57.017Z"
+    },
+    {
+      "id": 6,
+      "adv": "ABC Enterprises",
+      "end": "2027-01-10",
+      "name": "New Year Launch",
+      "start": "2026-12-20",
+      "status": "Pending",
+      "created": "2026-10-05T08:53:57.017Z"
+    }
+  ],
+  "inventory": [
+    {
+      "id": 1,
+      "dur": "1 week",
+      "name": "Basic Plan",
+      "price": 5000,
+      "status": "Active",
+      "created": "2026-09-25T08:53:57.017Z"
+    },
+    {
+      "id": 2,
+      "dur": "1 month",
+      "name": "Standard Plan",
+      "price": 18000,
+      "status": "Active",
+      "created": "2026-09-27T08:53:57.017Z"
+    },
+    {
+      "id": 3,
+      "dur": "3 months",
+      "name": "Premium Plan",
+      "price": 45000,
+      "status": "Active",
+      "created": "2026-09-29T08:53:57.017Z"
+    },
+    {
+      "id": 4,
+      "dur": "6 months",
+      "name": "Enterprise Plan",
+      "price": 80000,
+      "status": "Active",
+      "created": "2026-10-01T08:53:57.017Z"
+    },
+    {
+      "id": 5,
+      "dur": "1 year",
+      "name": "Custom Plan",
+      "price": 150000,
+      "status": "Active",
+      "created": "2026-10-03T08:53:57.017Z"
+    }
+  ],
+  "billing": [
+    {
+      "id": 1,
+      "adv": "ABC Enterprises",
+      "date": "2026-11-01",
+      "desc": "Campaign revenue",
+      "type": "Transactions",
+      "amount": 150000,
+      "status": "Paid",
+      "created": "2026-09-25T08:53:57.017Z"
+    },
+    {
+      "id": 2,
+      "adv": "Platform",
+      "date": "2026-10-28",
+      "desc": "Partner payout",
+      "type": "Payouts",
+      "amount": 75000,
+      "status": "Paid",
+      "created": "2026-09-27T08:53:57.017Z"
+    },
+    {
+      "id": 3,
+      "adv": "TechGlobal Ltd",
+      "date": "2026-10-25",
+      "desc": "Campaign payment",
+      "type": "Invoices",
+      "amount": 200000,
+      "status": "Pending",
+      "created": "2026-09-29T08:53:57.017Z"
+    },
+    {
+      "id": 4,
+      "adv": "Platform",
+      "date": "2026-10-20",
+      "desc": "Device fees",
+      "type": "Transactions",
+      "amount": 50000,
+      "status": "Paid",
+      "created": "2026-10-01T08:53:57.017Z"
+    },
+    {
+      "id": 5,
+      "adv": "Platform",
+      "date": "2026-10-18",
+      "desc": "Partner commission",
+      "type": "Payouts",
+      "amount": 40000,
+      "status": "Paid",
+      "created": "2026-10-03T08:53:57.017Z"
+    },
+    {
+      "id": 6,
+      "adv": "Mega Media",
+      "date": "2026-10-05",
+      "desc": "Campaign revenue",
+      "type": "Transactions",
+      "amount": 180000,
+      "status": "Paid",
+      "created": "2026-10-05T08:53:57.017Z"
+    },
+    {
+      "id": 7,
+      "adv": "Future Brands",
+      "date": "2026-09-12",
+      "desc": "Campaign revenue",
+      "type": "Transactions",
+      "amount": 160000,
+      "status": "Paid",
+      "created": "2026-10-07T08:53:57.017Z"
+    },
+    {
+      "id": 8,
+      "adv": "ABC Enterprises",
+      "date": "2026-09-02",
+      "desc": "Campaign revenue",
+      "type": "Transactions",
+      "amount": 140000,
+      "status": "Paid",
+      "created": "2026-10-09T08:53:57.017Z"
+    },
+    {
+      "id": 9,
+      "adv": "TechGlobal Ltd",
+      "date": "2026-08-15",
+      "desc": "Campaign revenue",
+      "type": "Transactions",
+      "amount": 120000,
+      "status": "Paid",
+      "created": "2026-10-11T08:53:57.017Z"
+    },
+    {
+      "id": 10,
+      "adv": "Dream Ads Co.",
+      "date": "2026-07-20",
+      "desc": "Campaign revenue",
+      "type": "Transactions",
+      "amount": 90000,
+      "status": "Paid",
+      "created": "2026-10-13T08:53:57.017Z"
+    },
+    {
+      "id": 11,
+      "adv": "Mega Media",
+      "date": "2026-06-10",
+      "desc": "Campaign revenue",
+      "type": "Transactions",
+      "amount": 110000,
+      "status": "Paid",
+      "created": "2026-10-15T08:53:57.017Z"
+    },
+    {
+      "id": 12,
+      "adv": "ABC Enterprises",
+      "date": "2026-05-08",
+      "desc": "Campaign revenue",
+      "type": "Transactions",
+      "amount": 80000,
+      "status": "Paid",
+      "created": "2026-10-17T08:53:57.017Z"
+    }
+  ],
+  "support": [
+    {
+      "id": 1,
+      "prio": "High",
+      "subj": "Device offline issue",
+      "user": "ABC Enterprises",
+      "status": "Open",
+      "created": "2026-09-25T08:53:57.017Z"
+    },
+    {
+      "id": 2,
+      "prio": "Medium",
+      "subj": "Campaign not playing",
+      "user": "TechGlobal Ltd",
+      "status": "In progress",
+      "created": "2026-09-27T08:53:57.017Z"
+    },
+    {
+      "id": 3,
+      "prio": "Low",
+      "subj": "Payment delay",
+      "user": "Mega Media",
+      "status": "Resolved",
+      "created": "2026-09-29T08:53:57.017Z"
+    },
+    {
+      "id": 4,
+      "prio": "Medium",
+      "subj": "Login problem",
+      "user": "Future Brands",
+      "status": "Open",
+      "created": "2026-10-01T08:53:57.017Z"
+    },
+    {
+      "id": 5,
+      "prio": "Low",
+      "subj": "Report issue",
+      "user": "ABC Enterprises",
+      "status": "Closed",
+      "created": "2026-10-03T08:53:57.017Z"
+    }
+  ],
+  "audit": [
+    {
+      "at": "2026-11-10T12:30:15.024Z",
+      "id": 11,
+      "ip": "127.0.0.1",
+      "user": "Rekha Patil",
+      "action": "Signed in (admin)"
+    },
+    {
+      "at": "2026-11-04T10:30:28.053Z",
+      "id": 10,
+      "ip": "127.0.0.1",
+      "user": "Rekha Patil",
+      "action": "Opened client portal view for \"SR Enterprices\" (view-only)"
+    },
+    {
+      "at": "2026-11-04T10:29:38.884Z",
+      "id": 9,
+      "ip": "127.0.0.1",
+      "user": "Rekha Patil",
+      "action": "Opened client portal view for \"SR Enterprices\" (view-only)"
+    },
+    {
+      "at": "2026-11-04T09:13:11.642Z",
+      "id": 8,
+      "ip": "127.0.0.1",
+      "user": "Rekha Patil",
+      "action": "Signed in (admin)"
+    },
+    {
+      "at": "2026-11-04T09:01:32.691Z",
+      "id": 7,
+      "ip": "127.0.0.1",
+      "user": "Rekha Patil",
+      "action": "campaigns: created \"Diwali Launch\""
+    },
+    {
+      "at": "2026-11-04T08:58:55.084Z",
+      "id": 6,
+      "ip": "127.0.0.1",
+      "user": "Rekha Patil",
+      "action": "advertisers: created \"SR Enterprices\""
+    },
+    {
+      "at": "2026-11-04T08:56:36.255Z",
+      "id": 5,
+      "ip": "127.0.0.1",
+      "user": "Rekha Patil",
+      "action": "campaigns: updated \"Tech Sale\""
+    },
+    {
+      "at": "2026-11-04T08:56:27.822Z",
+      "id": 4,
+      "ip": "127.0.0.1",
+      "user": "Rekha Patil",
+      "action": "Signed in (admin)"
+    },
+    {
+      "at": "2026-11-04T08:23:57.017Z",
+      "id": 3,
+      "ip": "127.0.0.1",
+      "user": "System",
+      "action": "System initialised"
+    },
+    {
+      "at": "2026-11-04T08:33:57.017Z",
+      "id": 2,
+      "ip": "127.0.0.1",
+      "user": "Rekha Patil",
+      "action": "Signed in (admin)"
+    },
+    {
+      "at": "2026-11-04T08:43:57.017Z",
+      "id": 1,
+      "ip": "127.0.0.1",
+      "user": "Amit Sharma",
+      "action": "campaigns: approved \"Festive Offers 2026\""
+    }
+  ],
+  "logins": [
+    {
+      "at": "2026-11-04T03:53:57.017Z",
+      "id": 5,
+      "ip": "127.0.0.1",
+      "name": "ABC Enterprises",
+      "advId": 1,
+      "email": "ads@abc.com"
+    },
+    {
+      "at": "2026-11-03T07:53:57.017Z",
+      "id": 4,
+      "ip": "127.0.0.1",
+      "name": "TechGlobal Ltd",
+      "advId": 2,
+      "email": "ads@techglobal.com"
+    },
+    {
+      "at": "2026-11-02T08:33:57.017Z",
+      "id": 3,
+      "ip": "127.0.0.1",
+      "name": "ABC Enterprises",
+      "advId": 1,
+      "email": "ads@abc.com"
+    },
+    {
+      "at": "2026-11-01T07:33:57.017Z",
+      "id": 2,
+      "ip": "127.0.0.1",
+      "name": "Future Brands",
+      "advId": 4,
+      "email": "hello@futurebrands.com"
+    },
+    {
+      "at": "2026-10-31T04:53:57.017Z",
+      "id": 1,
+      "ip": "127.0.0.1",
+      "name": "Mega Media",
+      "advId": 5,
+      "email": "ads@megamedia.com"
+    }
+  ],
   "settings": {
     "name": "AdTech Platform",
     "email": "support@adtech.in",
@@ -9,725 +727,7 @@
     "tfa": true,
     "notify": true
   },
-  "users": [
-    {
-      "id": 1,
-      "created": "2026-09-25T08:53:57.017Z",
-      "name": "Rekha Patil",
-      "email": "admin@adtech.in",
-      "role": "Super Admin",
-      "status": "Active",
-      "pw": "9813e403cb789ff13bd67317c692c60e:0c6acbcf45e30ae716be146baec53c1d6a68c35bb67109269cb605f2789c3f03"
-    },
-    {
-      "id": 2,
-      "created": "2026-09-27T08:53:57.017Z",
-      "name": "Amit Sharma",
-      "email": "amit@adtech.in",
-      "role": "Admin",
-      "status": "Active",
-      "pw": "58f67eabe406935d77166867e94de454:535870a561679dda8d4d2563817ec58aff19419ff878d8be0ffe6a31c3fe401f"
-    },
-    {
-      "id": 3,
-      "created": "2026-09-29T08:53:57.017Z",
-      "name": "Priya Singh",
-      "email": "priya@adtech.in",
-      "role": "Manager",
-      "status": "Active",
-      "pw": "e5869e5889419890666326a3193151e6:3b861d3ffe5e3ae8e9d4c954d28100404aab6e65a5d474be39633bdbc1a00280"
-    },
-    {
-      "id": 4,
-      "created": "2026-10-01T08:53:57.017Z",
-      "name": "Rahul Kumar",
-      "email": "rahul@adtech.in",
-      "role": "Viewer",
-      "status": "Inactive",
-      "pw": "3e62daa675d66fc9e34e7a057e624020:e800309f1ce7adc70ffc7275418b1bc31b7b01fa85f1fde3bb6343f26a6e7995"
-    },
-    {
-      "id": 5,
-      "created": "2026-10-03T08:53:57.017Z",
-      "name": "Sneha Iyer",
-      "email": "sneha@adtech.in",
-      "role": "Support",
-      "status": "Active",
-      "pw": "56042de34549202702c69c5d527fa7e9:7f290ae1af0eddcdcebb0e0d65cf875e9c525f5a64b435f704bc301587c49fd4"
-    }
-  ],
-  "advertisers": [
-    {
-      "id": 6,
-      "created": "2026-11-04T08:58:55.084Z",
-      "name": "SR Enterprices",
-      "email": "sr2413@gmail.com",
-      "status": "Pending",
-      "pw": "e4a222d9fcb6d2d6820342091aa4ba75:2bd2798ba0532a328680b7270df720377477ff8eafc16f922d58c8974de54a0f"
-    },
-    {
-      "id": 1,
-      "created": "2026-09-25T08:53:57.017Z",
-      "name": "ABC Enterprises",
-      "email": "ads@abc.com",
-      "status": "Approved",
-      "pw": "f7c8718257c822fe1f46c872d94efdc9:d9801a7ff52872a98f197ff88dacca0cea76a40bf50b46e62b2e4977565169b6",
-      "loginCount": 2,
-      "lastLogin": "2026-11-04T03:53:57.017Z"
-    },
-    {
-      "id": 2,
-      "created": "2026-09-27T08:53:57.017Z",
-      "name": "TechGlobal Ltd",
-      "email": "ads@techglobal.com",
-      "status": "Approved",
-      "pw": "e35e680a5602c5dd50d8f00f06f9348e:510520596d499d4b7c52ee150caeca4ee9634575f0b60515d0f854f7393bde9d",
-      "loginCount": 1,
-      "lastLogin": "2026-11-03T07:53:57.017Z"
-    },
-    {
-      "id": 3,
-      "created": "2026-09-29T08:53:57.017Z",
-      "name": "Dream Ads Co.",
-      "email": "ads@dreamads.com",
-      "status": "Pending",
-      "pw": "9639ee0f4264159b5252551bf6f7627e:a4f79bc7b04e88ac72709a334a47cfd31c1f37e1a4c162aa3580440aa996a17e",
-      "loginCount": 0,
-      "lastLogin": null
-    },
-    {
-      "id": 4,
-      "created": "2026-10-01T08:53:57.017Z",
-      "name": "Future Brands",
-      "email": "hello@futurebrands.com",
-      "status": "Approved",
-      "pw": "a77c3c412311423bb696b95574e73e12:edbbd199087d7e61a28cd0daa4a12a263fe8530d5d8f3729c0ab7b00a20e3f2d",
-      "loginCount": 1,
-      "lastLogin": "2026-11-01T07:33:57.017Z"
-    },
-    {
-      "id": 5,
-      "created": "2026-10-03T08:53:57.017Z",
-      "name": "Mega Media",
-      "email": "ads@megamedia.com",
-      "status": "Approved",
-      "pw": "283f4c095a449b2a5a3db511f4b445e5:a8e2ba1112ee4c0f88120e0715d0412e7baf9647e9127cc747eb96245d389ea7",
-      "loginCount": 1,
-      "lastLogin": "2026-10-31T04:53:57.017Z"
-    }
-  ],
-  "vehicles": [
-    {
-      "id": 1,
-      "created": "2026-09-25T08:53:57.017Z",
-      "no": "KA-01-AA-1001",
-      "owner": "Ramesh Kumar",
-      "area": "Bommanahalli",
-      "status": "Active"
-    },
-    {
-      "id": 2,
-      "created": "2026-09-27T08:53:57.017Z",
-      "no": "KA-01-BB-2002",
-      "owner": "Suresh Patel",
-      "area": "Silk Board",
-      "status": "Active"
-    },
-    {
-      "id": 3,
-      "created": "2026-09-29T08:53:57.017Z",
-      "no": "KA-01-CC-3003",
-      "owner": "Mahesh Rao",
-      "area": "Koramangala",
-      "status": "Inactive"
-    },
-    {
-      "id": 4,
-      "created": "2026-10-01T08:53:57.017Z",
-      "no": "KA-01-DD-4004",
-      "owner": "Lakshmi Devi",
-      "area": "HSR Layout",
-      "status": "Active"
-    },
-    {
-      "id": 5,
-      "created": "2026-10-03T08:53:57.017Z",
-      "no": "KA-01-EE-5005",
-      "owner": "Rajesh Gowda",
-      "area": "Indiranagar",
-      "status": "Active"
-    },
-    {
-      "id": 6,
-      "created": "2026-10-05T08:53:57.017Z",
-      "no": "KA-01-FF-6006",
-      "owner": "Anil Shetty",
-      "area": "Whitefield",
-      "status": "Active"
-    },
-    {
-      "id": 7,
-      "created": "2026-10-07T08:53:57.017Z",
-      "no": "KA-01-GG-7007",
-      "owner": "Divya Nair",
-      "area": "Jayanagar",
-      "status": "Active"
-    },
-    {
-      "id": 8,
-      "created": "2026-10-09T08:53:57.017Z",
-      "no": "KA-01-HH-8008",
-      "owner": "Kiran Reddy",
-      "area": "Electronic City",
-      "status": "Active"
-    }
-  ],
-  "partners": [
-    {
-      "id": 1,
-      "created": "2026-09-25T08:53:57.017Z",
-      "name": "Ramesh Kumar",
-      "phone": "9876543210",
-      "vehicle": "KA-01-AA-1001",
-      "status": "Active"
-    },
-    {
-      "id": 2,
-      "created": "2026-09-27T08:53:57.017Z",
-      "name": "Suresh Patel",
-      "phone": "9123456789",
-      "vehicle": "KA-01-BB-2002",
-      "status": "Active"
-    },
-    {
-      "id": 3,
-      "created": "2026-09-29T08:53:57.017Z",
-      "name": "Mahesh Rao",
-      "phone": "9988776655",
-      "vehicle": "KA-01-CC-3003",
-      "status": "Pending"
-    },
-    {
-      "id": 4,
-      "created": "2026-10-01T08:53:57.017Z",
-      "name": "Lakshmi Devi",
-      "phone": "9765432109",
-      "vehicle": "KA-01-DD-4004",
-      "status": "Active"
-    },
-    {
-      "id": 5,
-      "created": "2026-10-03T08:53:57.017Z",
-      "name": "Rajesh Gowda",
-      "phone": "8899887654",
-      "vehicle": "KA-01-EE-5005",
-      "status": "Active"
-    },
-    {
-      "id": 6,
-      "created": "2026-10-05T08:53:57.017Z",
-      "name": "Anil Shetty",
-      "phone": "9845012345",
-      "vehicle": "KA-01-FF-6006",
-      "status": "Active"
-    },
-    {
-      "id": 7,
-      "created": "2026-10-07T08:53:57.017Z",
-      "name": "Divya Nair",
-      "phone": "9901234567",
-      "vehicle": "KA-01-GG-7007",
-      "status": "Active"
-    },
-    {
-      "id": 8,
-      "created": "2026-10-09T08:53:57.017Z",
-      "name": "Kiran Reddy",
-      "phone": "9886543210",
-      "vehicle": "KA-01-HH-8008",
-      "status": "Active"
-    }
-  ],
-  "devices": [
-    {
-      "id": 1,
-      "created": "2026-09-25T08:53:57.017Z",
-      "dev": "DEV-001",
-      "vehicle": "KA-01-AA-1001",
-      "status": "Online",
-      "lat": 12.9065662192549,
-      "lng": 77.62404909481585,
-      "speed": 20,
-      "lastSeenAt": "2026-11-10T12:31:48.964Z"
-    },
-    {
-      "id": 2,
-      "created": "2026-09-27T08:53:57.017Z",
-      "dev": "DEV-002",
-      "vehicle": "KA-01-BB-2002",
-      "status": "Online",
-      "lat": 12.918320172604968,
-      "lng": 77.62316479890337,
-      "speed": 33,
-      "lastSeenAt": "2026-11-10T12:31:48.964Z"
-    },
-    {
-      "id": 3,
-      "created": "2026-09-29T08:53:57.017Z",
-      "dev": "DEV-003",
-      "vehicle": "KA-01-CC-3003",
-      "status": "Offline",
-      "lat": 12.938225506655423,
-      "lng": 77.62690305980257,
-      "speed": 0,
-      "lastSeenAt": "2026-11-04T07:53:57.017Z"
-    },
-    {
-      "id": 4,
-      "created": "2026-10-01T08:53:57.017Z",
-      "dev": "DEV-004",
-      "vehicle": "KA-01-DD-4004",
-      "status": "Online",
-      "lat": 12.912740589372515,
-      "lng": 77.63827459856424,
-      "speed": 21,
-      "lastSeenAt": "2026-11-10T12:31:48.964Z"
-    },
-    {
-      "id": 5,
-      "created": "2026-10-03T08:53:57.017Z",
-      "dev": "DEV-005",
-      "vehicle": "KA-01-EE-5005",
-      "status": "Maintenance",
-      "lat": 12.977069674869483,
-      "lng": 77.6448321381954,
-      "speed": 0,
-      "lastSeenAt": "2026-11-04T08:43:57.017Z"
-    },
-    {
-      "id": 6,
-      "created": "2026-10-05T08:53:57.017Z",
-      "dev": "DEV-006",
-      "vehicle": "KA-01-FF-6006",
-      "status": "Online",
-      "lat": 12.969921777156316,
-      "lng": 77.75177321769904,
-      "speed": 16,
-      "lastSeenAt": "2026-11-10T12:31:48.964Z"
-    },
-    {
-      "id": 7,
-      "created": "2026-10-07T08:53:57.017Z",
-      "dev": "DEV-007",
-      "vehicle": "KA-01-GG-7007",
-      "status": "Online",
-      "lat": 12.927649740733472,
-      "lng": 77.58285799090581,
-      "speed": 20,
-      "lastSeenAt": "2026-11-10T12:31:48.964Z"
-    },
-    {
-      "id": 8,
-      "created": "2026-10-09T08:53:57.017Z",
-      "dev": "DEV-008",
-      "vehicle": "KA-01-HH-8008",
-      "status": "Online",
-      "lat": 12.84505209870368,
-      "lng": 77.66239374883772,
-      "speed": 26,
-      "lastSeenAt": "2026-11-10T12:31:48.964Z"
-    }
-  ],
-  "campaigns": [
-    {
-      "id": 7,
-      "created": "2026-11-04T09:01:32.691Z",
-      "name": "Diwali Launch",
-      "adv": "SR Enterprices",
-      "start": "2026-11-05",
-      "end": "2026-11-06",
-      "status": "Pending"
-    },
-    {
-      "id": 1,
-      "created": "2026-09-25T08:53:57.017Z",
-      "name": "Festive Offers 2026",
-      "adv": "ABC Enterprises",
-      "start": "2026-11-01",
-      "end": "2026-11-30",
-      "status": "Approved"
-    },
-    {
-      "id": 2,
-      "created": "2026-09-27T08:53:57.017Z",
-      "name": "Tech Sale",
-      "adv": "TechGlobal Ltd",
-      "start": "2026-11-05",
-      "end": "2026-11-20",
-      "status": "Approved"
-    },
-    {
-      "id": 3,
-      "created": "2026-09-29T08:53:57.017Z",
-      "name": "Dream Big Campaign",
-      "adv": "Dream Ads Co.",
-      "start": "2026-11-10",
-      "end": "2026-11-25",
-      "status": "Approved"
-    },
-    {
-      "id": 4,
-      "created": "2026-10-01T08:53:57.017Z",
-      "name": "Winter Bonanza",
-      "adv": "Future Brands",
-      "start": "2026-11-15",
-      "end": "2026-12-15",
-      "status": "Rejected"
-    },
-    {
-      "id": 5,
-      "created": "2026-10-03T08:53:57.017Z",
-      "name": "Mega Sale",
-      "adv": "Mega Media",
-      "start": "2026-11-20",
-      "end": "2026-12-05",
-      "status": "Approved"
-    },
-    {
-      "id": 6,
-      "created": "2026-10-05T08:53:57.017Z",
-      "name": "New Year Launch",
-      "adv": "ABC Enterprises",
-      "start": "2026-12-20",
-      "end": "2027-01-10",
-      "status": "Pending"
-    }
-  ],
-  "inventory": [
-    {
-      "id": 1,
-      "created": "2026-09-25T08:53:57.017Z",
-      "name": "Basic Plan",
-      "dur": "1 week",
-      "price": 5000,
-      "status": "Active"
-    },
-    {
-      "id": 2,
-      "created": "2026-09-27T08:53:57.017Z",
-      "name": "Standard Plan",
-      "dur": "1 month",
-      "price": 18000,
-      "status": "Active"
-    },
-    {
-      "id": 3,
-      "created": "2026-09-29T08:53:57.017Z",
-      "name": "Premium Plan",
-      "dur": "3 months",
-      "price": 45000,
-      "status": "Active"
-    },
-    {
-      "id": 4,
-      "created": "2026-10-01T08:53:57.017Z",
-      "name": "Enterprise Plan",
-      "dur": "6 months",
-      "price": 80000,
-      "status": "Active"
-    },
-    {
-      "id": 5,
-      "created": "2026-10-03T08:53:57.017Z",
-      "name": "Custom Plan",
-      "dur": "1 year",
-      "price": 150000,
-      "status": "Active"
-    }
-  ],
-  "billing": [
-    {
-      "id": 1,
-      "created": "2026-09-25T08:53:57.017Z",
-      "date": "2026-11-01",
-      "desc": "Campaign revenue",
-      "adv": "ABC Enterprises",
-      "amount": 150000,
-      "type": "Transactions",
-      "status": "Paid"
-    },
-    {
-      "id": 2,
-      "created": "2026-09-27T08:53:57.017Z",
-      "date": "2026-10-28",
-      "desc": "Partner payout",
-      "adv": "Platform",
-      "amount": 75000,
-      "type": "Payouts",
-      "status": "Paid"
-    },
-    {
-      "id": 3,
-      "created": "2026-09-29T08:53:57.017Z",
-      "date": "2026-10-25",
-      "desc": "Campaign payment",
-      "adv": "TechGlobal Ltd",
-      "amount": 200000,
-      "type": "Invoices",
-      "status": "Pending"
-    },
-    {
-      "id": 4,
-      "created": "2026-10-01T08:53:57.017Z",
-      "date": "2026-10-20",
-      "desc": "Device fees",
-      "adv": "Platform",
-      "amount": 50000,
-      "type": "Transactions",
-      "status": "Paid"
-    },
-    {
-      "id": 5,
-      "created": "2026-10-03T08:53:57.017Z",
-      "date": "2026-10-18",
-      "desc": "Partner commission",
-      "adv": "Platform",
-      "amount": 40000,
-      "type": "Payouts",
-      "status": "Paid"
-    },
-    {
-      "id": 6,
-      "created": "2026-10-05T08:53:57.017Z",
-      "date": "2026-10-05",
-      "desc": "Campaign revenue",
-      "adv": "Mega Media",
-      "amount": 180000,
-      "type": "Transactions",
-      "status": "Paid"
-    },
-    {
-      "id": 7,
-      "created": "2026-10-07T08:53:57.017Z",
-      "date": "2026-09-12",
-      "desc": "Campaign revenue",
-      "adv": "Future Brands",
-      "amount": 160000,
-      "type": "Transactions",
-      "status": "Paid"
-    },
-    {
-      "id": 8,
-      "created": "2026-10-09T08:53:57.017Z",
-      "date": "2026-09-02",
-      "desc": "Campaign revenue",
-      "adv": "ABC Enterprises",
-      "amount": 140000,
-      "type": "Transactions",
-      "status": "Paid"
-    },
-    {
-      "id": 9,
-      "created": "2026-10-11T08:53:57.017Z",
-      "date": "2026-08-15",
-      "desc": "Campaign revenue",
-      "adv": "TechGlobal Ltd",
-      "amount": 120000,
-      "type": "Transactions",
-      "status": "Paid"
-    },
-    {
-      "id": 10,
-      "created": "2026-10-13T08:53:57.017Z",
-      "date": "2026-07-20",
-      "desc": "Campaign revenue",
-      "adv": "Dream Ads Co.",
-      "amount": 90000,
-      "type": "Transactions",
-      "status": "Paid"
-    },
-    {
-      "id": 11,
-      "created": "2026-10-15T08:53:57.017Z",
-      "date": "2026-06-10",
-      "desc": "Campaign revenue",
-      "adv": "Mega Media",
-      "amount": 110000,
-      "type": "Transactions",
-      "status": "Paid"
-    },
-    {
-      "id": 12,
-      "created": "2026-10-17T08:53:57.017Z",
-      "date": "2026-05-08",
-      "desc": "Campaign revenue",
-      "adv": "ABC Enterprises",
-      "amount": 80000,
-      "type": "Transactions",
-      "status": "Paid"
-    }
-  ],
-  "support": [
-    {
-      "id": 1,
-      "created": "2026-09-25T08:53:57.017Z",
-      "subj": "Device offline issue",
-      "user": "ABC Enterprises",
-      "prio": "High",
-      "status": "Open"
-    },
-    {
-      "id": 2,
-      "created": "2026-09-27T08:53:57.017Z",
-      "subj": "Campaign not playing",
-      "user": "TechGlobal Ltd",
-      "prio": "Medium",
-      "status": "In progress"
-    },
-    {
-      "id": 3,
-      "created": "2026-09-29T08:53:57.017Z",
-      "subj": "Payment delay",
-      "user": "Mega Media",
-      "prio": "Low",
-      "status": "Resolved"
-    },
-    {
-      "id": 4,
-      "created": "2026-10-01T08:53:57.017Z",
-      "subj": "Login problem",
-      "user": "Future Brands",
-      "prio": "Medium",
-      "status": "Open"
-    },
-    {
-      "id": 5,
-      "created": "2026-10-03T08:53:57.017Z",
-      "subj": "Report issue",
-      "user": "ABC Enterprises",
-      "prio": "Low",
-      "status": "Closed"
-    }
-  ],
-  "logins": [
-    {
-      "id": 5,
-      "advId": 1,
-      "name": "ABC Enterprises",
-      "email": "ads@abc.com",
-      "at": "2026-11-04T03:53:57.017Z",
-      "ip": "127.0.0.1"
-    },
-    {
-      "id": 4,
-      "advId": 2,
-      "name": "TechGlobal Ltd",
-      "email": "ads@techglobal.com",
-      "at": "2026-11-03T07:53:57.017Z",
-      "ip": "127.0.0.1"
-    },
-    {
-      "id": 3,
-      "advId": 1,
-      "name": "ABC Enterprises",
-      "email": "ads@abc.com",
-      "at": "2026-11-02T08:33:57.017Z",
-      "ip": "127.0.0.1"
-    },
-    {
-      "id": 2,
-      "advId": 4,
-      "name": "Future Brands",
-      "email": "hello@futurebrands.com",
-      "at": "2026-11-01T07:33:57.017Z",
-      "ip": "127.0.0.1"
-    },
-    {
-      "id": 1,
-      "advId": 5,
-      "name": "Mega Media",
-      "email": "ads@megamedia.com",
-      "at": "2026-10-31T04:53:57.017Z",
-      "ip": "127.0.0.1"
-    }
-  ],
-  "audit": [
-    {
-      "id": 11,
-      "action": "Signed in (admin)",
-      "user": "Rekha Patil",
-      "at": "2026-11-10T12:30:15.024Z",
-      "ip": "127.0.0.1"
-    },
-    {
-      "id": 10,
-      "action": "Opened client portal view for \"SR Enterprices\" (view-only)",
-      "user": "Rekha Patil",
-      "at": "2026-11-04T10:30:28.053Z",
-      "ip": "127.0.0.1"
-    },
-    {
-      "id": 9,
-      "action": "Opened client portal view for \"SR Enterprices\" (view-only)",
-      "user": "Rekha Patil",
-      "at": "2026-11-04T10:29:38.884Z",
-      "ip": "127.0.0.1"
-    },
-    {
-      "id": 8,
-      "action": "Signed in (admin)",
-      "user": "Rekha Patil",
-      "at": "2026-11-04T09:13:11.642Z",
-      "ip": "127.0.0.1"
-    },
-    {
-      "id": 7,
-      "action": "campaigns: created \"Diwali Launch\"",
-      "user": "Rekha Patil",
-      "at": "2026-11-04T09:01:32.691Z",
-      "ip": "127.0.0.1"
-    },
-    {
-      "id": 6,
-      "action": "advertisers: created \"SR Enterprices\"",
-      "user": "Rekha Patil",
-      "at": "2026-11-04T08:58:55.084Z",
-      "ip": "127.0.0.1"
-    },
-    {
-      "id": 5,
-      "action": "campaigns: updated \"Tech Sale\"",
-      "user": "Rekha Patil",
-      "at": "2026-11-04T08:56:36.255Z",
-      "ip": "127.0.0.1"
-    },
-    {
-      "id": 4,
-      "action": "Signed in (admin)",
-      "user": "Rekha Patil",
-      "at": "2026-11-04T08:56:27.822Z",
-      "ip": "127.0.0.1"
-    },
-    {
-      "id": 3,
-      "action": "System initialised",
-      "user": "System",
-      "at": "2026-11-04T08:23:57.017Z",
-      "ip": "127.0.0.1"
-    },
-    {
-      "id": 2,
-      "action": "Signed in (admin)",
-      "user": "Rekha Patil",
-      "at": "2026-11-04T08:33:57.017Z",
-      "ip": "127.0.0.1"
-    },
-    {
-      "id": 1,
-      "action": "campaigns: approved \"Festive Offers 2026\"",
-      "user": "Amit Sharma",
-      "at": "2026-11-04T08:43:57.017Z",
-      "ip": "127.0.0.1"
-    }
-  ]
+  "meta": {
+    "secret": "48c76defe0fb2c7be92e9350cfe5c02feb7a914130aebccc41526a9f11474090"
+  }
 }
