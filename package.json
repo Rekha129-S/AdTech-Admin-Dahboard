@@ -1,13 +1,14 @@
 {
   "name": "adtech-admin-platform",
   "version": "3.0.0",
-  "description": "AdTech Platform - admin and client portals with Node.js backend (no dependencies)",
+  "description": "AdTech Platform - admin and client portals with Node.js backend",
   "main": "server.js",
   "scripts": {
+    "build": "echo Build completed",
     "start": "node server.js"
   },
   "engines": {
-    "node": ">=16"
+    "node": "20.x"
   },
   "license": "MIT",
   "dependencies": {
